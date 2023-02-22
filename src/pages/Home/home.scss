@@ -1,0 +1,18 @@
+.container-home {
+  padding-top: 40px;
+  .create-button {
+    width: 200px;
+    margin-right: 0px;
+    margin-right: 20px;
+  }
+  .containter-card-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pagination {
+    margin: 20px 20px; //atas,bawah kiri,kanan
+    display: flex;
+    justify-content: space-between;
+  }
+}

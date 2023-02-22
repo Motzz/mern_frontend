@@ -1,0 +1,28 @@
+.container-footer {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  .logo-wrap {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    gap: 50px;
+  }
+  .tulisan {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+}
+.copyright {
+  background-color: rgb(2, 96, 2);
+  padding: 10px 0px;
+
+  p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+}
