@@ -15,8 +15,10 @@ const MainApp = () => {
       <div className="content-wrapper">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/create" element={<CreateBlog />} />
-          <Route path="/detail" element={<DetailBlog />} />
+          <Route path="/create/:idBlog?" element={<CreateBlog />} />
+          <Route path="/update/:idBlog" element={<CreateBlog />} />
+
+          <Route path="/detail/:idBlog" element={<DetailBlog />} />
         </Routes>
       </div>
       <footer className="footer-wrapper">

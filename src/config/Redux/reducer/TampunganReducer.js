@@ -2,5 +2,6 @@ import { combineReducers } from "redux";
 
 import Globalreducer from "./GlobalReducer";
 import HomeReducer from "./HomeReducer";
-const reducerTampungan = combineReducers({ HomeReducer, Globalreducer });
+import CreateBlogReducer from "./CreateBlogReducer";
+const reducerTampungan = combineReducers({ HomeReducer, Globalreducer, CreateBlogReducer });
 export default reducerTampungan;
